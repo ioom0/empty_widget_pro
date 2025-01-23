@@ -1,0 +1,27 @@
+name: empty_widget_pro
+description: Custom_Empty widget is flutter custom widget which is designed to notify user about some event.
+version: 0.0.2
+homepage: https://github.com/TheAlphamerc/empty_widget
+repository: https://github.com/TheAlphamerc/empty_widget
+license: MIT
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+publish_to: https://pub.dev
+
+flutter:
+  assets:
+    - assets/images/emptyImage.png
+    - assets/images/im_emptyIcon_1.png
+    - assets/images/im_emptyIcon_2.png
+    - assets/images/im_emptyIcon_3.png
