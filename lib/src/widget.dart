@@ -146,7 +146,7 @@ class _EmptyListWidgetState extends State<EmptyWidget>
           child: Image.asset(
             isPackageImage ? _packageImage.encode()! : widget.image!,
             fit: BoxFit.contain,
-            package: isPackageImage ? 'empty_widget' : null,
+            package: isPackageImage ? 'empty_widget_pro' : null,
           ),
         ),
       ),
